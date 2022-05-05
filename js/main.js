@@ -11,7 +11,7 @@ var width = 5;
 var row = 0;
 var col = 0;
 var GameOver = false
-const wordAle = '56/8+2=1'
+const wordAle = '56/8+2=9'
 const keys = [
     '1',
     '2',
@@ -114,7 +114,7 @@ const checkRow = () => {
             if (currentRow >= 5) {
                 isGameOver = false
                 showMessage('Ups, perdiste mal ahí :(')
-                showMessage('La cuenta es "56/8+2=1"')
+                showMessage('La cuenta es "56/8+2=9"')
                 return
             }
             if (currentRow < 5) {
