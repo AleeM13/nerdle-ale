@@ -11,7 +11,7 @@ var width = 5;
 var row = 0;
 var col = 0;
 var GameOver = false
-const wordAle = '56/8+2=9'
+const wordAle = '56/8+2=1'
 const keys = [
     '1',
     '2',
