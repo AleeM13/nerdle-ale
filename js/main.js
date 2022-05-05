@@ -114,7 +114,7 @@ const checkRow = () => {
             if (currentRow >= 5) {
                 isGameOver = false
                 showMessage('Ups, perdiste mal ahí :(')
-                showMessage('La cuenta es "56/8+2=9"')
+                showMessage('La cuenta es "56/8+2=1"')
                 return
             }
             if (currentRow < 5) {
